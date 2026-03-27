@@ -2,6 +2,11 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import MenuCard from "../components/MenuCard.vue";
+import pic1 from "../assets/Salad.PNG";
+import pic2 from "../assets/Pizza.png";
+import pic3 from "../assets/MainDish.PNG";
+import pic4 from "../assets/Drink.PNG";
+import pic5 from "../assets/Dessert.PNG";
 
 const router = useRouter();
 const selectedDish = ref(null);
@@ -11,31 +16,31 @@ const menuItems = [
 		id: 1,
 		name: "Pomelo Prawn Salad",
 		description: "Salad tôm bưởi thanh mát",
-		image: "/src/assets/Salad.PNG",
+		image: pic1,
 	},
 	{
 		id: 2,
 		name: "Braised Beef Pizza",
 		description: "Pizza bò hầm signature",
-		image: "/src/assets/Pizza.png",
+		image: pic2,
 	},
 	{
 		id: 3,
 		name: "Grilled Oyster Blade",
 		description: "Thịt bò Úc nướng mềm với rau củ",
-		image: "/src/assets/MainDish.PNG",
+		image: pic3,
 	},
 	{
 		id: 4,
 		name: "Đồ Uống tự chọn",
 		description: "Mình cùng chọn đồ uống yêu thích nhé",
-		image: "/src/assets/Drink.PNG",
+		image: pic4,
 	},
 	{
 		id: 5,
 		name: "Tráng Miệng",
 		description: "Món tráng miệng ngọt ngào kết thúc bữa ăn",
-		image: "/src/assets/Dessert.PNG",
+		image: pic5,
 	},
 ];
 

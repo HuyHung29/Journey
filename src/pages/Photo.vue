@@ -1,6 +1,11 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
+import pic1 from "../assets/photobooth/pic1.jfif";
+import pic2 from "../assets/photobooth/pic2.jfif";
+import pic3 from "../assets/photobooth/pic3.jfif";
+import pic4 from "../assets/photobooth/pic4.jfif";
+import pic5 from "../assets/photobooth/pic5.jfif";
 
 const router = useRouter();
 const selectedConcept = ref(null);
@@ -14,31 +19,31 @@ const concepts = [
 		id: "pic1",
 		name: "Mẫu 01",
 		description: "",
-		image: "/src/assets/photobooth/pic1.jfif",
+		image: pic1,
 	},
 	{
 		id: "pic2",
 		name: "Mẫu 02",
 		description: "",
-		image: "/src/assets/photobooth/pic2.jfif",
+		image: pic2,
 	},
 	{
 		id: "pic3",
 		name: "Mẫu 03",
 		description: "",
-		image: "/src/assets/photobooth/pic3.jfif",
+		image: pic3,
 	},
 	{
 		id: "pic4",
 		name: "Mẫu 04",
 		description: "",
-		image: "/src/assets/photobooth/pic4.jfif",
+		image: pic4,
 	},
 	{
 		id: "pic5",
 		name: "Mẫu 05",
 		description: "",
-		image: "/src/assets/photobooth/pic5.jfif",
+		image: pic5,
 	},
 ];
 
